@@ -1,12 +1,9 @@
 import React, { Component } from 'react';
 import { css } from './Home.css'
+import Header from './Header.js'
 
-class Home extends Component {
-  render() {
-    return (
-      <div className="home">Hello World Again!</div>
-    )
-  }
-}
-
-export default Home;
+export default () => {
+  return (
+    <Header />
+  );
+};
